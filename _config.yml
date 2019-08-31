@@ -63,7 +63,7 @@ repository_tree: master
 ##############################
 paths:
   root    : "/join.html"
-  home    : "/join.html"
+  home    : "/"
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
