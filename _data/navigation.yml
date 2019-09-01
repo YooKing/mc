@@ -32,7 +32,40 @@ header:
       ko      : &KO       
       ko-KR   : *KO
     url: /articles.html
-    
+
+  - titles:
+      en      : &EN       gallery
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  相册
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       소개
+      ko-KR   : *KO
+    url: /gallery.html    
+
+  - titles:
+      en      : &EN       Map
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  卫星地图
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       
+      ko-KR   : *KO
+    url: http://139.159.156.93:8123
 
   - titles:
       en      : &EN       About

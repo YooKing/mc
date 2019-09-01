@@ -173,7 +173,7 @@ analytics:
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
+    tracking_id : UA-143358009-2
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
@@ -226,4 +226,6 @@ plugins:
 
 collections:
   posts:
+    output: true
+  gallery:
     output: true
