@@ -17,4 +17,3 @@ titles:
   ko-KR   : *KO
 key: page-about
 ---
-[归档](/mc/archive.html)
