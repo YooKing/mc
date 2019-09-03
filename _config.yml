@@ -63,7 +63,7 @@ repository_tree: master
 ##############################
 paths:
   root    : "/"
-  home    : "/mc"
+  home    : "/"
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
