@@ -27,3 +27,4 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: /assets/images/about.png
 ---
+我是腐竹Yooking,一个多年MC新手，为了告诉全世界我对我的世界的热爱，因此我开了这个服务器.
