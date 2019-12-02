@@ -83,8 +83,8 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
-  
- - titles:
+ 
+  - titles:
       en      : &EN       Blog
       en-GB   : *EN
       en-US   : *EN
@@ -100,3 +100,4 @@ header:
       ko      : &KO
       ko-KR   : *KO
     url: https://yoomc.top/blog
+ 
