@@ -83,3 +83,20 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
+  
+ - titles:
+      en      : &EN       Blog
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  博客
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO
+      ko-KR   : *KO
+    url: https://yoomc.top/blog
