@@ -35,8 +35,8 @@ article_header:
 
             {%- if _section.actions -%}
               <ul class="menu">
-              {%- for _action in _section.actions -%}
-                {%- include snippets/get-nav-url.html path=_action.url -%}
+              {%- for _action in _section.actions -%}  
+              {%- include snippets/get-nav-url.html path=_action.url -%}
                 {%- assign _url = __return -%}
                 {%- assign _type = _action.type | default: 'outline-info' -%}
                 <li><a class="button button--{{ _type }} button--pill button--lg" href="{{ _url }}">{{ _action.text }}</a></li>
@@ -45,7 +45,9 @@ article_header:
             {%- endif -%}
 
           </div>
-
+          {%- if _section.bilibili -%}
+            {%- include extensions/bilibili.html id='96514978' -%}
+          {%- endif -%}
           {%- if _section.children -%}
             {%- assign _size = _section.children | size  -%}
             <div class="grid--container">
@@ -80,7 +82,7 @@ article_header:
                             {%- include snippets/get-nav-url.html path=_action.url -%}
                             {%- assign _url = __return -%}
                             {%- assign _type = _action.type | default: 'outline-info' -%}
-                            <li><a class="button button--{{ _type }} button--pill button--lg" href="{{ _url }}">{{ _action.text }}</a></li>
+                            <li><a class="button button--{{ _type }} button--pill button--lg" href="{{ _url }} " target=_blank>{{ _action.text }}</a></li>
                           {%- endfor -%}
                         </ul>
                       {%- endif -%}
@@ -114,7 +116,6 @@ article_header:
                         </div>
                       {%- endif -%}
                     {%- endif -%}
-
                     {%- if child.content-%}
                       <p>{{ child.content }}</p>
                     {%- endif -%}
